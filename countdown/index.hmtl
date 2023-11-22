@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="title"><h1>Count-Down Timmer</h1></div>
+        <div class="date" >
+            <p>Please Select The Date:</p>
+            <input type="date" name="last" id="last">
+            <button id="btn">Submit</button>
+        </div>
+        <div id="count" class="hide" >
+            <div>
+                <input type="text" id="days" readonly>
+                <p>Days</p>
+            </div>
+            <div>
+                <input type="text" id="hours" readonly>
+                <p>Hours</p>
+            </div>
+            <div>
+                <input type="text" id="min" readonly>
+                <p>Minutes</p>
+            </div>
+            <div>
+                <input type="text" id="sec" readonly>
+                <p>Second</p>
+            </div>
+            <div>
+                <button id="rst">Reset</button>
+            </div>
+        </div>
+        <div id="footer">All Right Reserved 2023-24</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
