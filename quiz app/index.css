@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Gothic+A1:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,500&family=Ubuntu:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hide{
+    display: none;
+}
+body{
+
+    background-color: #6499E9;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#container{
+    background-color: #9EDDFF;
+    width: 50vw;
+    /* height: 50vh; */
+}
+
+#question{
+  padding-left: 10px;
+    border-bottom: 1px solid #6499E9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+#option{
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    
+}
+
+#option input{
+    margin: 22px;
+}
+
+#btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px;
+padding-left: 10px;
+padding-right: 10px;
+border: none;
+border-radius: 10px;
+}
+
+#sub{
+    background-color: #6499E9;
+    color: #BEFFF7;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  border: none;
+border-radius: 10px;
+}
+
+#score{
+    position: relative;
+    /* left: -13px; */
+    /* top: -22px; */
+    display: flex;
+    align-items: center;
+    justify-content: centerS;
+}
+
+#box{
+    border-radius: 10px;
+    background-color: #A6F6FF;
+    padding: 40px;
+    font-family: 'Poppins';
+    color: #6499E9;
+}
+#box p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+#start{
+    background-color: #6499E9;
+    color: #BEFFF7;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+
+}
+
+@media(max-width: 600px){
+    #option {
+        font-size: 0.8rem;
+        font-weight: 500;
+        
+    }
+
+    #question {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 460px){
+    #option {
+        font-size: 0.6rem;
+        font-weight: 500;
+        
+    }
+
+    #question {
+        font-size: 0.8rem;
+    }
+
+    #box{
+     font-size: 0.9rem;
+        padding: 30px;}
+        #sub{
+            font-size: 0.7rem;
+            /* padding: 2px; */
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        
+#start{
+    font-size: 0.7rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
